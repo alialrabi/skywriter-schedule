@@ -1,0 +1,42 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "lastmodifiedby",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "lastmodifieddatetime",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldName": "domain",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180113081205",
+    "dto": "mapstruct",
+    "service": "no",
+    "entityTableName": "job",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "schedule",
+    "searchEngine": "elasticsearch"
+}
